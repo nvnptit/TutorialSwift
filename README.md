@@ -1,2 +1,2 @@
-# RandomPhoto
-Random photo for iOS
+# Tutorial Swift
+Tutorial SwiftUI
