@@ -10,6 +10,7 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         Image("hinh1")
+            .resizable()
             .clipShape(Circle())
         // cắt hình tròn
             .overlay(Circle().stroke(.white,lineWidth: 4))
