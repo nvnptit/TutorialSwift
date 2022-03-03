@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79C8410227D06067004BF1A6 /* RandomPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8410127D06067004BF1A6 /* RandomPhotoApp.swift */; };
+		79C8410227D06067004BF1A6 /* TutorialSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8410127D06067004BF1A6 /* TutorialSwift.swift */; };
 		79C8410427D06067004BF1A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8410327D06067004BF1A6 /* ContentView.swift */; };
 		79C8410627D06068004BF1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C8410527D06068004BF1A6 /* Assets.xcassets */; };
 		79C8410927D06068004BF1A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C8410827D06068004BF1A6 /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79C840FE27D06067004BF1A6 /* RandomPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C8410127D06067004BF1A6 /* RandomPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoApp.swift; sourceTree = "<group>"; };
+		79C840FE27D06067004BF1A6 /* TutorialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C8410127D06067004BF1A6 /* TutorialSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialSwift.swift; sourceTree = "<group>"; };
 		79C8410327D06067004BF1A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79C8410527D06068004BF1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C8410827D06068004BF1A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		79C840F527D06067004BF1A6 = {
 			isa = PBXGroup;
 			children = (
-				79C8410027D06067004BF1A6 /* RandomPhoto */,
+				79C8410027D06067004BF1A6 /* TutorialSwift */,
 				79C840FF27D06067004BF1A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +47,22 @@
 		79C840FF27D06067004BF1A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79C840FE27D06067004BF1A6 /* RandomPhoto.app */,
+				79C840FE27D06067004BF1A6 /* TutorialSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79C8410027D06067004BF1A6 /* RandomPhoto */ = {
+		79C8410027D06067004BF1A6 /* TutorialSwift */ = {
 			isa = PBXGroup;
 			children = (
-				79C8410127D06067004BF1A6 /* RandomPhotoApp.swift */,
+				79C8410127D06067004BF1A6 /* TutorialSwift.swift */,
 				79C8410327D06067004BF1A6 /* ContentView.swift */,
 				79C8410527D06068004BF1A6 /* Assets.xcassets */,
 				79C8410F27D0C37A004BF1A6 /* CircleImage.swift */,
 				79C8411127D0CC58004BF1A6 /* MapView.swift */,
 				79C8410727D06068004BF1A6 /* Preview Content */,
 			);
-			path = RandomPhoto;
+			path = TutorialSwift;
 			sourceTree = "<group>";
 		};
 		79C8410727D06068004BF1A6 /* Preview Content */ = {
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79C840FD27D06067004BF1A6 /* RandomPhoto */ = {
+		79C840FD27D06067004BF1A6 /* TutorialSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79C8410C27D06068004BF1A6 /* Build configuration list for PBXNativeTarget "RandomPhoto" */;
+			buildConfigurationList = 79C8410C27D06068004BF1A6 /* Build configuration list for PBXNativeTarget "TutorialSwift" */;
 			buildPhases = (
 				79C840FA27D06067004BF1A6 /* Sources */,
 				79C840FB27D06067004BF1A6 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = RandomPhoto;
+			name = TutorialSwift;
 			productName = RandomPhoto;
-			productReference = 79C840FE27D06067004BF1A6 /* RandomPhoto.app */;
+			productReference = 79C840FE27D06067004BF1A6 /* TutorialSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 79C840F927D06067004BF1A6 /* Build configuration list for PBXProject "RandomPhoto" */;
+			buildConfigurationList = 79C840F927D06067004BF1A6 /* Build configuration list for PBXProject "TutorialSwift" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79C840FD27D06067004BF1A6 /* RandomPhoto */,
+				79C840FD27D06067004BF1A6 /* TutorialSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -145,7 +145,7 @@
 			files = (
 				79C8410427D06067004BF1A6 /* ContentView.swift in Sources */,
 				79C8411227D0CC58004BF1A6 /* MapView.swift in Sources */,
-				79C8410227D06067004BF1A6 /* RandomPhotoApp.swift in Sources */,
+				79C8410227D06067004BF1A6 /* TutorialSwift.swift in Sources */,
 				79C8411027D0C37A004BF1A6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +290,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.RandomPhoto";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.TutorialSwift";
+				PRODUCT_NAME = TutorialSwift;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,8 +319,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.RandomPhoto";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.TutorialSwift";
+				PRODUCT_NAME = TutorialSwift;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79C840F927D06067004BF1A6 /* Build configuration list for PBXProject "RandomPhoto" */ = {
+		79C840F927D06067004BF1A6 /* Build configuration list for PBXProject "TutorialSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79C8410A27D06068004BF1A6 /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79C8410C27D06068004BF1A6 /* Build configuration list for PBXNativeTarget "RandomPhoto" */ = {
+		79C8410C27D06068004BF1A6 /* Build configuration list for PBXNativeTarget "TutorialSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79C8410D27D06068004BF1A6 /* Debug */,
